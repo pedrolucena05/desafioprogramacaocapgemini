@@ -6,7 +6,7 @@ Fiz o upload dos arquivos gerados pelo codeblocks após o build;
 
 Os códigos tem comentarios explicando o que cada sessão do programa faz;
 
----------------------- Principal algoritmo de cada questão --------------------------------
+-------------------------------- Principal algoritmo de cada questão -------------------------------------
 
 Questão 1: Fiz um For dentro de outro For, sendo o primeiro responsável pela linha do triangulo e
 o segundo responsável por printar a linha, tendo uma variavel que define se o caractere a printar
