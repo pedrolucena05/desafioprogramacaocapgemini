@@ -2,6 +2,8 @@
 
 Programas em C e com a IDE Codeblocks;
 
+Compilador: GNU GCC Compiler;
+
 Fiz o upload dos arquivos gerados pelo codeblocks após o build;
 
 Os códigos tem comentarios explicando o que cada sessão do programa faz;
@@ -24,7 +26,9 @@ todas as substrings daquele índice (uma adjacente a outra no vetor), e depois f
 cada caractere (ASCII) para as substrings serem comparadas e verificar se existe algum anagrama naquele 
 índice;
 
-Obs: Uso um For dentro de outro For para percorrer o somatório de cada substring e para garantir que 
-todas as substrings serão comparadas (todas combinações possíveis);  
+Obs1: Uso um For dentro de outro For para percorrer o somatório de cada substring e para garantir que 
+todas as substrings serão comparadas (todas combinações possíveis);
+
+Obs2: Tamanho máximo da palavra: 20 caracteres;
 
 
