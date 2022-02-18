@@ -1,4 +1,4 @@
-# desafioprogramacaocapgemini
+# Desafio Programação Capgemini
 
 Programas em C e com a IDE Codeblocks;
 
