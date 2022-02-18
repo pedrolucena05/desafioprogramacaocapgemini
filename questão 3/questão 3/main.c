@@ -5,17 +5,17 @@
 
 int main() {
 
-    // Declaração das variaveis
+    // DeclaraÃ§Ã£o das variaveis
     char palavra[20], v1[115];
     int tamanho,indice, quantidade=2, j=0, k, p=0, v2[20], m=0, anagramas=0, aux=0, flag[1650], op=0, rs;
 
-    // Leitura e validação da string
+    // Leitura e validaÃ§Ã£o da string
     do {
         printf("\n\nDigite uma palavra:");
         gets(palavra);
         fflush(stdin);
         tamanho= strlen(palavra);
-        // teste de validação da string
+        // teste de validaÃ§Ã£o da string
         for(j=0;j<tamanho;j++){
             if(palavra[j]<'A' || palavra[j]>'Z') {
                 if(palavra[j]<'a' || palavra[j]>'z'){
@@ -31,14 +31,14 @@ int main() {
         }
     } while(op==0);
 
-    // Convertendo todos caracteres para minúsculos
+    // Convertendo todos caracteres para minÃºsculos
     for (j=0;j<tamanho;j++){
         if (palavra[j]>='A' || palavra[j]<='Z'){
             palavra[j]=tolower(palavra[j]);
         }
     }
 
-    // Definindo o índice e inicializando o vetor flag com zeros
+    // Definindo o Ã­ndice e inicializando o vetor flag com zeros
     indice=tamanho-1;
     printf("\n\n");
     for (j=0;j<1650;j++){
@@ -57,7 +57,7 @@ int main() {
         }
         v1[indice*quantidade]='\0';
 
-        // Inicializando o vetor (v2) responsável pela soma total (ascii) de cada substring
+        // Inicializando o vetor (v2) responsÃ¡vel pela soma total (ascii) de cada substring
         while(m<quantidade){
             if (m==0) {
                 v2[m+3]=0;
@@ -83,14 +83,12 @@ int main() {
             }
             p+=indice;
         }
-        // comparação da soma de cada substring (anagrama)
+        // comparaÃ§Ã£o da soma de cada substring (anagrama)
         for(j=0;j<quantidade;j++){
             m=(j*2)+3;
             for(k=0;k<quantidade;k++){
-                // condição de contagem dos anagramas e implementação do vetor flag com 1 caso um anagrama seja encontrado
+                // condiÃ§Ã£o de contagem dos anagramas e implementaÃ§Ã£o do vetor flag com 1 caso um anagrama seja encontrado
                 if (j==0){
-                    m=3;
-                    rs=5;
                     if (v2[3]==v2[5] && j!=k && flag[3*5]==0){
                         anagramas++;
                         flag[3*5]=1;
@@ -106,7 +104,7 @@ int main() {
             }
         }
         j=0;
-        // Reinicializando o vetor flag e parametros iniciais para o próximo índice
+        // Reinicializando o vetor flag e parametros iniciais para o prÃ³ximo Ã­ndice
         while(j<1650){
             flag[j]=0;
             j++;
