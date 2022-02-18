@@ -14,7 +14,7 @@ Questão 1: Fiz um For dentro de outro For, sendo o primeiro responsável pela l
 o segundo responsável por printar a linha, tendo uma variavel que define se o caractere a printar
 é um espaço (" ") ou uma estrela ("*");
 
-Obs: O algoritmo printa triangulos retangulos de altura 1 a 50;
+Obs: O algoritmo printa triângulos retângulos de altura 1 a 50;
 
 Questão 2: Percorro a string (senha) com um For, verificando cada caractere e definindo se cada 
 requisito está sendo atendido, tendo um vetor flag de tamanho 6 que implemento com 0 se o requisito 
