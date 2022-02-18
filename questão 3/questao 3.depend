@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1645131572 source:c:\users\peusu\desktop\test\questao 4\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1645144762 source:c:\users\peusu\desktop\capgemini\questão 3\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
